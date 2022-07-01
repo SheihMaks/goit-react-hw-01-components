@@ -1,11 +1,11 @@
-import user from 'data/user'
-import dataStat from 'data/dataStat'
-import friends from 'data/friends'
-import transactionHistory from 'data/transactions'
-import { Profile } from 'components/UserProfile/Profile'
-import {Statistics} from 'components/UserStatistics/Statistics'
-import {FriendList} from 'components/UserFriends/FriendList'
-import {TransactionHistory} from 'components/UserTransactionHistory/TransactionHistory'
+import user from 'data/user';
+import dataStat from 'data/dataStat';
+import friends from 'data/friends';
+import transactions from 'data/transactions';
+import { Profile } from 'components/UserProfile/Profile';
+import {Statistics} from 'components/UserStatistics/Statistics';
+import {FriendList} from 'components/UserFriends/FriendList';
+import {TransactionHistory} from 'components/UserTransactionHistory/TransactionHistory';
 export const App=()=>{
     return (<main>
         <section>
@@ -20,7 +20,7 @@ export const App=()=>{
 <FriendList friends={friends}/>
 </section>
 <section><h2>Задание №4</h2>
-<TransactionHistory items={transactionHistory}/>
+<TransactionHistory items={transactions}/>
 </section>
     </main>)
 }
