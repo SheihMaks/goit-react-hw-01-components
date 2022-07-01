@@ -1,5 +1,5 @@
 
-import PropTypes from "prop-types";
+import PropTypes from 'prop-types';
 
 export const Profile=({user})=>{
     const{avatar,username,tag,location,stats}=user;
