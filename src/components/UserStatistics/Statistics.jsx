@@ -1,4 +1,4 @@
-import PropTypes from 'prop-types'
+// import PropTypes from 'prop-types';
 
 export const Statistics=({data, title})=>{
    return(<>{title && (<h2>{title}</h2>)}
@@ -11,9 +11,9 @@ export const Statistics=({data, title})=>{
         </ul></>)
 }
 
-Statistics.propTypes={
-title:PropTypes.string,
-id:PropTypes.string.isRequired,
-label:PropTypes.string.isRequired,
-percentage: PropTypes.number.isRequired,
-}
+// Statistics.propTypes={
+// title:PropTypes.string,
+// id:PropTypes.string.isRequired,
+// label:PropTypes.string.isRequired,
+// percentage: PropTypes.number.isRequired,
+// }

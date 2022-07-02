@@ -7,6 +7,7 @@ import {Statistics} from 'components/UserStatistics/Statistics';
 import {FriendList} from 'components/UserFriends/FriendList';
 import {TransactionHistory} from 'components/UserTransactionHistory/TransactionHistory';
 export const App=()=>{
+    
     return (<main>
         <section>
             <h2>Задание №1</h2>

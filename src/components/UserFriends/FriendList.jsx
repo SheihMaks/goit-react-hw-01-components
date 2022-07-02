@@ -1,4 +1,4 @@
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 
 export  const FriendList=({friends})=>{
     return(<ul>
@@ -12,9 +12,9 @@ export  const FriendList=({friends})=>{
     </ul>)
 }
 
-FriendList.propTypes={
-    avatar:PropTypes.string,
-    name: PropTypes.string.isRequired,
-    status: PropTypes.bool.isRequired,
-    id:PropTypes.number.isRequired,
-    }
+// FriendList.propTypes={
+//     avatar:PropTypes.string,
+//     name: PropTypes.string.isRequired,
+//     status: PropTypes.bool.isRequired,
+//     id:PropTypes.number.isRequired,
+//     }
