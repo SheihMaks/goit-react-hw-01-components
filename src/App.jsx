@@ -1,3 +1,5 @@
+import {Main} from 'Common/Main.styled'
+import {Section} from 'Common/Section.styled'
 import user from 'data/user';
 import dataStat from 'data/dataStat';
 import friends from 'data/friends';
@@ -8,20 +10,20 @@ import {FriendList} from 'components/UserFriends/FriendList';
 import {TransactionHistory} from 'components/UserTransactionHistory/TransactionHistory';
 export const App=()=>{
     
-    return (<main>
-        <section>
-            <h2>Задание №1</h2>
+    return (<Main>
+        <Section>
+            <h2>UserProfile</h2>
             <Profile user={user}/>
-            </section>
-            <section>
-                <h2>Задание №2</h2>
+            </Section>
+            <Section>
+                <h2>UserStatistics</h2>
                 <Statistics title="Upload stats" data={dataStat}/>
-</section>
-<section><h2>Задание №3</h2>
+</Section>
+<Section><h2>UserFriends</h2>
 <FriendList friends={friends}/>
-</section>
-<section><h2>Задание №4</h2>
+</Section>
+<Section><h2>UserTransactionHistory</h2>
 <TransactionHistory items={transactions}/>
-</section>
-    </main>)
+</Section>
+    </Main>)
 }
