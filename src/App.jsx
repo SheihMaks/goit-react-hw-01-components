@@ -8,8 +8,8 @@ import { Profile } from 'components/UserProfile/Profile';
 import {Statistics} from 'components/UserStatistics/Statistics';
 import {FriendList} from 'components/UserFriends/FriendList';
 import {TransactionHistory} from 'components/UserTransactionHistory/TransactionHistory';
+
 export const App=()=>{
-    
     return (<Main>
         <Section>
             <h2>UserProfile</h2>

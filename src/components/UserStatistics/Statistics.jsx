@@ -1,10 +1,6 @@
 // import PropTypes from 'prop-types';
-import {UserStatistics} from'./Statistics.styled';
-import { Title } from './Statistics.styled';
-import {StatList} from './Statistics.styled';
-import {StatItem} from './Statistics.styled';
-import {Label} from './Statistics.styled';
-import {Percentage} from './Statistics.styled';
+import {UserStatistics,Title,StatList,StatItem,Label,Percentage} from'./Statistics.styled';
+
 export const Statistics=({data, title})=>{
    return(<UserStatistics>{title && (<Title>{title}</Title>)}
 <StatList>
